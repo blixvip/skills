@@ -1,0 +1,16 @@
+# Skills
+
+Public agent skills by [@wasely](https://github.com/wasely).
+
+## Available skills
+
+- [`affine-native`](affine-native/) — token-efficient automation for the native AFFiNE desktop app.
+
+## Install for Codex
+
+```powershell
+git clone https://github.com/wasely/skills.git C:\code\skills
+Copy-Item -Recurse C:\code\skills\affine-native "$env:USERPROFILE\.codex\skills\affine-native"
+```
+
+Restart Codex after installation.
