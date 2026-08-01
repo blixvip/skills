@@ -14,3 +14,5 @@ Copy-Item -Recurse C:\code\skills\affine-native "$env:USERPROFILE\.codex\skills\
 ```
 
 Restart Codex after installation.
+
+super simple
