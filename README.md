@@ -16,3 +16,5 @@ Copy-Item -Recurse C:\code\skills\ui-max "$env:USERPROFILE\.codex\skills\ui-max"
 ```
 
 Restart Codex after installation.
+
+super simple
