@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Publisher"
+  short_description: "Safely audit and publish repositories"
+  default_prompt: "Use $github to audit this project and safely publish the intended changes."
