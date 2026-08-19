@@ -1,0 +1,4 @@
+interface:
+  display_name: "UI Integrity"
+  short_description: "Prevent UI layout and integration bugs"
+  default_prompt: "Use $ui-intergrity to check this UI change for integration bugs."
