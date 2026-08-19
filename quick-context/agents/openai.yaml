@@ -1,0 +1,6 @@
+interface:
+  display_name: "Quick Context"
+  short_description: "Load a project's CLAUDE.md context"
+  default_prompt: "Use $quick-context to load the current project's CLAUDE.md instructions."
+policy:
+  allow_implicit_invocation: false

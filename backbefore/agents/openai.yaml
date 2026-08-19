@@ -1,0 +1,4 @@
+interface:
+  display_name: "Back Before"
+  short_description: "Restore a prior version safely"
+  default_prompt: "Use $backbefore to restore the last good state and reapply my change."

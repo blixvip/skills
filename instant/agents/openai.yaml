@@ -1,0 +1,4 @@
+interface:
+  display_name: "Instant"
+  short_description: "Deliver immediately useful answers"
+  default_prompt: "Use $instant to answer my request directly and concisely."
