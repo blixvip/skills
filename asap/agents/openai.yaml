@@ -1,0 +1,4 @@
+interface:
+  display_name: "ASAP"
+  short_description: "Execute urgent tasks through a reliable short path"
+  default_prompt: "Use $asap to complete this task through the shortest reliable path."
