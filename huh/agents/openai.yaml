@@ -1,0 +1,4 @@
+interface:
+  display_name: "Huh"
+  short_description: "Instant current-activity summary"
+  default_prompt: "Use $huh to report the current activity in five lines."
