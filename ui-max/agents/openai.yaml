@@ -1,4 +1,0 @@
-interface:
-  display_name: "UI Max"
-  short_description: "Design polished, coherent production interfaces"
-  default_prompt: "Use $ui-max to design and implement this interface with a coherent component system."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "AFFiNE Native"
-  short_description: "Token-efficient native AFFiNE canvas automation"
-  default_prompt: "Use $affine-native to connect to AFFiNE and build this edgeless board efficiently."
