@@ -1,0 +1,4 @@
+interface:
+  display_name: "Level 4: Deep"
+  short_description: "Complete substantial tasks in 18 minutes"
+  default_prompt: "Use $4 to deeply investigate and complete this task."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Level 3: Standard"
+  short_description: "Deliver standard tasks in 13 minutes"
+  default_prompt: "Use $3 to complete this task end to end."

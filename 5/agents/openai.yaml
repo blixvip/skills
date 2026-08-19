@@ -1,0 +1,4 @@
+interface:
+  display_name: "Level 5: Full"
+  short_description: "Drive complex tasks in 25 minutes"
+  default_prompt: "Use $5 to fully implement and verify this task."

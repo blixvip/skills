@@ -1,0 +1,4 @@
+interface:
+  display_name: "Level 1: Quick"
+  short_description: "Finish small tasks in three minutes"
+  default_prompt: "Use $1 to complete this small task within three minutes."

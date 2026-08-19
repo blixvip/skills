@@ -1,0 +1,4 @@
+interface:
+  display_name: "Level 2: Short"
+  short_description: "Handle straightforward tasks in 8 minutes"
+  default_prompt: "Use $2 to complete this task efficiently."
