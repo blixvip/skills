@@ -1,0 +1,4 @@
+interface:
+  display_name: "Shader UI"
+  short_description: "Add restrained, polished UI shaders"
+  default_prompt: "Use $shader-ui to add a restrained shader accent to this interface."
