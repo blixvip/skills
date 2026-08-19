@@ -1,0 +1,4 @@
+interface:
+  display_name: "Component Scout"
+  short_description: "Add fitting UI library components"
+  default_prompt: "Use $components to find and integrate the best component for this UI."
