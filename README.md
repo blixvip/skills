@@ -4,6 +4,7 @@ Public agent skills by [@wasely](https://github.com/wasely).
 
 ## Available skills
 
+- [`fake-thumbnail`](fake-thumbnail/) — dummy thumbnail concepts for testing skill discovery and workflows; no image generation.
 - [`affine-native`](affine-native/) — token-efficient automation for the native AFFiNE desktop app.
 - [`ui-max`](ui-max/) — production UI design, component selection, implementation, and validation.
 

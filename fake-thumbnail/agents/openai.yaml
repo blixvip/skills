@@ -1,0 +1,4 @@
+interface:
+  display_name: "Fake Thumbnail"
+  short_description: "Dummy thumbnail concepts for workflow testing"
+  default_prompt: "Use $fake-thumbnail to make a test thumbnail concept for my next video."
