@@ -1,0 +1,4 @@
+interface:
+  display_name: "AE ExtendScript"
+  short_description: "Drive After Effects with ExtendScript and see the result"
+  default_prompt: "Use $ae-extendscript to build or fix this in After Effects."

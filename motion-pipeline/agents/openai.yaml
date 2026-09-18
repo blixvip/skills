@@ -1,0 +1,4 @@
+interface:
+  display_name: "Motion Pipeline"
+  short_description: "Run a whole edit from footage and script to a finished render"
+  default_prompt: "Use $motion-pipeline to take this footage and script to a finished, non-sloppy edit."

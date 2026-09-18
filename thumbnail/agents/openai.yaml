@@ -1,0 +1,4 @@
+interface:
+  display_name: "YouTube Thumbnail"
+  short_description: "Create polished YouTube thumbnails and A/B variants"
+  default_prompt: "Use $thumbnail to generate a finished YouTube thumbnail with a clear visual hook, readable composition, and faithful use of my supplied references."

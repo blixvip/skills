@@ -1,0 +1,4 @@
+interface:
+  display_name: "Motion Design"
+  short_description: "Design frames that look crafted, not AI-generated"
+  default_prompt: "Use $motion-design to design the frames for this scene from its footage and brand."

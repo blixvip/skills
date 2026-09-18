@@ -1,0 +1,4 @@
+interface:
+  display_name: "Motion Plan"
+  short_description: "Turn a script into a shot-by-shot motion plan"
+  default_prompt: "Use $motion-plan to decide what goes on screen for this script, line by line."

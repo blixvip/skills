@@ -1,0 +1,4 @@
+interface:
+  display_name: "Motion Animate"
+  short_description: "Premium motion timing, easing and staggers"
+  default_prompt: "Use $motion-animate to animate this scene with deliberate timing and easing."

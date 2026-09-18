@@ -1,0 +1,4 @@
+interface:
+  display_name: "Motion Assets"
+  short_description: "Source, generate and conform the assets an edit needs"
+  default_prompt: "Use $motion-assets to source and conform the assets this scene needs."
