@@ -43,13 +43,13 @@ A complete system for turning footage and a script into edits that don't look AI
 Clone once, then copy the skills you want:
 
 ```powershell
-git clone https://github.com/blixvip/skills.git C:\code\skills
+git clone https://github.com/blixvip/skills.git
 
 # Codex
-Copy-Item -Recurse C:\code\skills\motion-pipeline "$env:USERPROFILE\.codex\skills\motion-pipeline"
+Copy-Item -Recurse .\skills\motion-pipeline "$env:USERPROFILE\.codex\skills\motion-pipeline"
 
 # Claude Code
-Copy-Item -Recurse C:\code\skills\motion-pipeline "$env:USERPROFILE\.claude\skills\motion-pipeline"
+Copy-Item -Recurse .\skills\motion-pipeline "$env:USERPROFILE\.claude\skills\motion-pipeline"
 ```
 
 For the full motion-graphics system, copy all six motion skills: `motion-pipeline`, `motion-plan`, `motion-assets`, `motion-design`, `motion-animate`, and `ae-extendscript`. Restart Codex or Claude Code after installing.
