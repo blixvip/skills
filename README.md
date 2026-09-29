@@ -1,6 +1,14 @@
 # Skills
 
-Agent skills by [@blixvip](https://github.com/blixvip) for Codex and Claude Code. Each top-level folder is one self-contained skill: a `SKILL.md`, plus optional `agents/openai.yaml` metadata and `references/`.
+**Drop-in agent skills that make Codex and Claude Code better at motion graphics, thumbnails, UI polish, and shipping fast.**
+
+<p>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-111?style=flat-square" alt="MIT license"></a>
+  <img src="https://img.shields.io/badge/skills-21-111?style=flat-square" alt="21 skills">
+  <img src="https://img.shields.io/badge/works%20with-Codex%20%C2%B7%20Claude%20Code-111?style=flat-square" alt="Codex and Claude Code">
+</p>
+
+Agent skills by [@blixvip](https://github.com/blixvip) for Codex and Claude Code. Each top-level folder is one self-contained skill: a `SKILL.md`, plus optional `agents/openai.yaml` metadata and `references/`. No build step, no dependencies: copy a folder and the agent picks it up.
 
 ## Motion graphics
 
@@ -23,7 +31,7 @@ A complete system for turning footage and a script into edits that don't look AI
 
 - [`components`](components/): improve an existing site or app with components from a curated list of high-quality UI libraries.
 - [`shader-ui`](shader-ui/): tasteful, localized shaders for accents, animated fills, edge lighting, liquid glass, and WebGL backgrounds.
-- [`ui-intergrity`](ui-intergrity/): prevent and fix overlap, stacking, clipping, and layout-shift bugs, especially in extensions and injected UI.
+- [`ui-intergrity`](ui-intergrity/) (folder name kept as-is so existing installs keep working): prevent and fix overlap, stacking, clipping, and layout-shift bugs, especially in extensions and injected UI.
 
 ## Working speed
 
@@ -52,4 +60,30 @@ Copy-Item -Recurse .\skills\motion-pipeline "$env:USERPROFILE\.codex\skills\moti
 Copy-Item -Recurse .\skills\motion-pipeline "$env:USERPROFILE\.claude\skills\motion-pipeline"
 ```
 
+On macOS or Linux:
+
+```bash
+git clone https://github.com/blixvip/skills.git
+
+# Codex
+mkdir -p ~/.codex/skills && cp -R skills/motion-pipeline ~/.codex/skills/
+
+# Claude Code
+mkdir -p ~/.claude/skills && cp -R skills/motion-pipeline ~/.claude/skills/
+```
+
 For the full motion-graphics system, copy all six motion skills: `motion-pipeline`, `motion-plan`, `motion-assets`, `motion-design`, `motion-animate`, and `ae-extendscript`. Restart Codex or Claude Code after installing.
+
+## Anatomy of a skill
+
+```
+<skill>/
+  SKILL.md             name + description frontmatter, then the instructions
+  agents/openai.yaml   optional display metadata for Codex
+  references/          optional deeper docs the skill links to
+  scripts/             optional helpers (e.g. github/scripts/*.py)
+```
+
+## License
+
+[MIT](LICENSE).
