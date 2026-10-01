@@ -6,6 +6,7 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-111?style=flat-square" alt="MIT license"></a>
   <img src="https://img.shields.io/badge/skills-21-111?style=flat-square" alt="21 skills">
   <img src="https://img.shields.io/badge/works%20with-Codex%20%C2%B7%20Claude%20Code-111?style=flat-square" alt="Codex and Claude Code">
+  <a href="https://discord.gg/zEB4VjmfSb"><img src="https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 Agent skills by [@blixvip](https://github.com/blixvip) for Codex and Claude Code. Each top-level folder is one self-contained skill: a `SKILL.md`, plus optional `agents/openai.yaml` metadata and `references/`. No build step, no dependencies: copy a folder and the agent picks it up.
@@ -83,6 +84,10 @@ For the full motion-graphics system, copy all six motion skills: `motion-pipelin
   references/          optional deeper docs the skill links to
   scripts/             optional helpers (e.g. github/scripts/*.py)
 ```
+
+## Community
+
+💬 [Join the Discord](https://discord.gg/zEB4VjmfSb) for questions, help, feedback, and updates.
 
 ## License
 
