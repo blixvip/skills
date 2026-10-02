@@ -1,13 +1,27 @@
-# Skills
+<h1 align="center">Skills</h1>
 
-**Drop-in agent skills that make Codex and Claude Code better at motion graphics, thumbnails, UI polish, and shipping fast.**
+<p align="center">
+  <b>Drop-in agent skills that make Codex and Claude Code better at motion graphics, thumbnails, UI polish, and shipping fast.</b>
+</p>
 
-<p>
+<p align="center">
+  <a href="https://github.com/blixvip/skills/stargazers"><img src="https://img.shields.io/github/stars/blixvip/skills?style=flat-square&color=a371f7" alt="GitHub stars"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-111?style=flat-square" alt="MIT license"></a>
   <img src="https://img.shields.io/badge/skills-21-111?style=flat-square" alt="21 skills">
   <img src="https://img.shields.io/badge/works%20with-Codex%20%C2%B7%20Claude%20Code-111?style=flat-square" alt="Codex and Claude Code">
   <a href="https://discord.gg/zEB4VjmfSb"><img src="https://img.shields.io/badge/Discord-Join%20the%20community-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
+
+<p align="center">
+  <a href="#motion-graphics">Motion graphics</a> ·
+  <a href="#thumbnails">Thumbnails</a> ·
+  <a href="#ui-and-frontend">UI and frontend</a> ·
+  <a href="#working-speed">Working speed</a> ·
+  <a href="#project-workflow">Project workflow</a> ·
+  <a href="#install">Install</a>
+</p>
+
+---
 
 Agent skills by [@blixvip](https://github.com/blixvip) for Codex and Claude Code. Each top-level folder is one self-contained skill: a `SKILL.md`, plus optional `agents/openai.yaml` metadata and `references/`. No build step, no dependencies: copy a folder and the agent picks it up.
 
