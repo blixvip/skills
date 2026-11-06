@@ -103,6 +103,12 @@ For the full motion-graphics system, copy all six motion skills: `motion-pipelin
 
 💬 [Join the Discord](https://discord.gg/zEB4VjmfSb) for questions, help, feedback, and updates.
 
+## Contributors
+
+Thank you to everyone who has contributed to skills! New here? Read [CONTRIBUTING.md](CONTRIBUTING.md) and pick a [good first issue](https://github.com/blixvip/skills/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
+
+<a href="https://github.com/blixvip/skills/graphs/contributors"><img src="https://contrib.rocks/image?repo=blixvip/skills" alt="Contributors" /></a>
+
 ## License
 
 [MIT](LICENSE).
