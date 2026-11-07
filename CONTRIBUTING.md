@@ -1,6 +1,8 @@
 # Contributing to Skills
 
-Thanks for helping! Questions and ideas are welcome in the **[Discord](https://discord.gg/zEB4VjmfSb)**, and bugs go in [GitHub issues](https://github.com/blixvip/skills/issues/new/choose).
+> 💬 **Before you open a PR, join the [blix open source Discord](https://discord.gg/wJfHQXfEMM).** It's the home for contributors across every blixvip repo: ask questions, run ideas by us, and talk through your PR.
+
+Thanks for helping! Questions and ideas are welcome in the **[Discord](https://discord.gg/wJfHQXfEMM)**, and bugs go in [GitHub issues](https://github.com/blixvip/skills/issues/new/choose).
 
 ## Finding something to work on
 
@@ -103,4 +105,4 @@ python3 github/scripts/project_audit.py --path . --strict    # only if you touch
 - `github/scripts/remote_guard.py`: validates the remote and branch, then does a non-forced push.
 - `AGENTS.md`: the rules agents follow when editing this repo. They apply to humans too.
 
-Made something with these skills? Show it off in the [Discord](https://discord.gg/zEB4VjmfSb).
+Made something with these skills? Show it off in the [Discord](https://discord.gg/wJfHQXfEMM).
